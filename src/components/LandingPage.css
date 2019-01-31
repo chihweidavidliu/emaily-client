@@ -1,0 +1,51 @@
+#landing {
+  background-image: url(../images/emaily.jpg);
+  background-size: cover;
+  height: 97vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#landing h1 {
+  font-size: 100px;
+  font-family: "Pacifico", cursive;
+  color: whitesmoke;
+}
+
+.landing-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: -42px;
+  height: 430px;
+}
+
+.landing-section h3 {
+  font-family: "Pacifico", cursive;
+  color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-2 {
+  background-image: url(../images/startup.jpg);
+  background-size: cover;
+}
+
+li {
+  color: #003f3a;
+  font-weight: bold;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+i {
+  margin-right: 3px;
+}
