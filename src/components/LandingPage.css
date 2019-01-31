@@ -1,7 +1,7 @@
 #landing {
   background-image: url(../images/emaily.jpg);
   background-size: cover;
-  height: 97vh;
+  height: 100vh;
   color: white;
   text-shadow: 2px 2px 4px #000040;
   display: flex;
