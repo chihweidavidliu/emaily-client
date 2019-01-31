@@ -1,10 +1,11 @@
 import React from "react";
 import { connect } from "react-redux";
 import "./CreditCounter.css";
+import { Link } from "react-router-dom";
 
 const CreditCounter = (props) => {
   return (
-    <li className="credits"><a href="/surveys">{`Credits: ${props.credits}`}</a></li>
+    <li className="credits"><Link to="/surveys">{`Credits: ${props.credits}`}</Link></li>
   )
 }
 
