@@ -9,7 +9,7 @@ import MobileSidebar from "./MobileSidebar";
 import "./Header.css";
 
 class Header extends Component {
-  componentDidMount() {
+  async componentDidMount() {
     const elems = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elems);
   }
